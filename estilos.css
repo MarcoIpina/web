@@ -1,0 +1,157 @@
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+   
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(12, 78, 13);
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #ffd700; /* Cambia el color al pasar el mouse */
+}
+
+nav ul {
+
+    list-style-type: none;
+    padding-left: 20px;
+    color: #666;
+    font-size: 18px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 20px;
+    background-color: aliceblue;
+    text-align: start;
+    animation-duration: 3s;
+    animation-name: slidein;
+    color: #000000;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+h1{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .boton-descarga {
+    padding: 10px;
+    background-color: #0f6110;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .boton-descarga:hover {
+    background-color: #333;
+    color: #0f6110;
+  }
+  
+  .boton-descarga-2 {
+    padding: 12px;
+    background-color: #0f6110;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+  
+  .boton-descarga-2:hover {
+    background-color: #0f6110;
+  }
+
+  form{
+    text-align: center;
+    font-style: arial;
+    size: 50px;
+  }
+
+  input{
+    color: #0f6110;
+
+  }
+
+  button{
+    color: #666;
+    border-color: black;
+    border-style: solid;
+    border-bottom: 100px;
+  }
+  
